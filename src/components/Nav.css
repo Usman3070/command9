@@ -1,0 +1,31 @@
+.home-main-new {
+  background: url("/public/images/HeaderCuves.png"),
+    radial-gradient(
+      56.1% 140.17% at 28.45% 52%,
+      rgba(183, 15, 186, 0.904) 0%,
+      #010924 100%
+    );
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+}
+.navbar12 {
+  margin-top: 20px;
+  padding-top: 30px;
+}
+.nav-btn {
+  padding: 15px 25px;
+  border-radius: 0px !important;
+  border: none;
+  background-image: linear-gradient(to right, #6b147b, #4a1d92);
+}
+.nav-center {
+  margin: 0 auto;
+}
+.nav-link {
+  color: #fff !important;
+  margin-right: 30px !important;
+  font-size: 18px !important;
+}

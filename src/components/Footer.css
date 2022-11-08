@@ -1,0 +1,134 @@
+.footer-main {
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  background: #150248;
+  background-image: url("/public/images/footer.png");
+  padding-bottom: 10%;
+}
+
+.footer-2 {
+  /* margin-top: 30px; */
+  padding-top: 20px;
+
+  justify-content: center;
+}
+.footer3 {
+  width: 262px;
+  height: 351px;
+  margin-top: 55px;
+  border: 1px solid rgba(65, 3, 116, 0.6);
+
+  background: linear-gradient(
+    158.33deg,
+    rgba(132, 35, 133, 0.342) 7.8%,
+    rgba(38, 3, 66, 0.108) 95.48%
+  );
+  backdrop-filter: blur(25px);
+
+  border-radius: 0px 25px;
+  margin-left: 17%;
+}
+.footer4 {
+  text-align: center;
+  justify-content: center;
+  margin-top: 30px;
+  /* padding-top: 30px; */
+}
+.footer5 {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  margin-top: 10px;
+  background-color: #6b147b;
+}
+.footer6 {
+  justify-content: center;
+}
+.footer7 {
+  margin-top: 20px;
+}
+.footer77 {
+  margin-top: 15px;
+  margin-right: 10px;
+}
+.footer10 {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px 20px;
+  border: 1px solid #b5a6b8;
+  border-radius: 15px;
+}
+
+.footer9 {
+  justify-content: start;
+  text-align: left;
+  padding-top: 35px;
+}
+.foote {
+  display: flex;
+}
+/* .location {
+    margin-left: -60px;
+  } */
+.foote1 {
+  height: 17px;
+  margin-top: 7px;
+  margin-right: 10px;
+}
+.footer13 {
+  justify-content: flex-start;
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.footer14 {
+  display: flex;
+  text-align: center;
+}
+.footer18 {
+  width: 14px;
+  height: 20px;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.footer19 {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.footer20 {
+  padding-right: 150px;
+  padding-top: 10px;
+}
+.footer15 {
+  display: flex;
+  text-align: center;
+}
+.footer21 {
+  width: 14px;
+  height: 20px;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+.footer22 {
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.footer-bootum {
+  margin-bottom: 20px;
+}
+.fff {
+  margin-top: 10px;
+}
+.nav-btn {
+  padding: 15px 25px;
+  border-radius: 0px !important;
+  border: none;
+  background-image: linear-gradient(to right, #6b147b, #4a1d92);
+}
+.foo {
+  margin-top: 20px;
+}
+.d-flex {
+  margin-right: 68%;
+}

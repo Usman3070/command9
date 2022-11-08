@@ -1,0 +1,101 @@
+.calander-main {
+  background: #111;
+  /* padding-top: 30px; */
+  padding-bottom: 50px;
+}
+.calander-1 {
+  border: 1px solid rgb(82, 2, 114);
+  background-image: url("/public/images/Calander_shape.png"),
+    linear-gradient(150.46deg, #6c076d 0.67%, #07194f 97.07%);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  justify-content: center;
+  /* margin-top: 30px;
+    padding-bottom: 50px; */
+  padding: 50px 30px;
+  border-radius: 0px 80px 80px 0px;
+  height: 585px;
+  width: 80%;
+}
+.calan3 {
+  margin: 0 auto;
+}
+.contact-form1 {
+  margin-top: 30px;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: space-between; */
+  /* flex-wrap: wrap; */
+}
+.input-field1 {
+  padding-left: 40px;
+  height: 40px;
+  /* width: 22em; */
+  width: 19.5em;
+  gap: 20px !important;
+  background: none;
+  border: #ffffff 1px solid;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.input-field12 {
+  padding-left: 40px;
+  height: 40px;
+  /* width: 22em; */
+  width: 19.5em;
+  gap: 20px !important;
+  background: none;
+  border: #ffffff 1px solid;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 20px;
+  /* margin-right: -9px; */
+  width: 100%;
+}
+.input-field2 {
+  padding-left: 40px;
+  height: 40px;
+  /* width: 44.5em; */
+  width: 40em;
+  background: none;
+  border: #ffffff 1px solid;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.input-message {
+  padding-left: 40px;
+  /* width: 44.5em; */
+  width: 40em;
+
+  background: none;
+  border: #ffffff 1px solid;
+  border-radius: 5px;
+  color: #fff;
+  margin-bottom: 20px;
+  width: 100%;
+}
+.nav-btn {
+  padding: 15px 25px;
+  border-radius: 0px !important;
+  border: none;
+  background-image: linear-gradient(to right, #6b147b, #4a1d92);
+}
+.input-icons i {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.icon {
+  padding: 10px;
+  color: #ffffff;
+  min-width: 50px;
+  text-align: center;
+}

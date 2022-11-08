@@ -1,13 +1,93 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+.card {
+  background-image: url("/public/images/gridVector.png");
+  /* border: 1px solid #241179;
+  clip-path: polygon(0 0, 100% 48%, 100% 100%, 0% 100%);
+  background: rgba(34, 34, 34, 0.5); */
+  /* background-image: linear-gradient() */
+  background-repeat: no-repeat;
+  height: 351.61px;
+  width: 263px;
+}
+.card:hover {
+  /* background: purple; */
+  /* cursor: pointer;
+  background: linear-gradient(
+    150.85deg,
+    rgba(0, 48, 194, 0.5) -8.93%,
+    rgba(184, 15, 186, 0.5) 98.17%
+  ); */
+  background-image: url("/public/images/gridVector2.png");
+  background-repeat: no-repeat;
+  height: 351.61px;
+  width: 263px;
+  cursor: pointer;
+}
+.main_container {
+  background-image: url("./assets/images/bg.png"),
+    linear-gradient(
+      90deg,
+      rgba(76, 12, 82, 1) 0%,
+      rgba(2, 0, 36, 1) 100%,
+      rgba(0, 212, 255, 1) 100%
+    ) !important;
+  /* linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(121, 108, 9, 1) 35%,
+      rgba(0, 212, 255, 1) 100%
+    ) !important  ; */
+}
+.slick-dots {
+  bottom: -90px !important;
+}
+.slick-dots li button:before {
+  font-size: 30px !important;
+  color: #ad09a0 !important;
+  content: "▢" !important;
+
+  border-radius: 2px !important ;
+}
+@media (max-width: 768px) {
+  .carouselMedia {
+    height: 1100px !important;
+  }
+}
+@media (max-width: 403px) {
+  .carouselMedia {
+    height: 1200px !important;
+  }
+}
+@media (max-width: 347px) {
+  .carouselMedia {
+    height: 1300px !important;
+  }
+}
+@media (max-width: 389px) {
+  .slick-dots {
+    bottom: -120px !important;
+  }
+}
+@media (max-width: 323px) {
+  .slick-dots {
+    bottom: -140px !important;
+  }
+}
+/* .slick-dots li button {
+  content: "▢" !important;
+} */
+.react-calendar {
+  border-radius: 10px;
 }

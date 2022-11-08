@@ -1,0 +1,29 @@
+.trusted-main {
+  background: rgb(49, 21, 52);
+  background: linear-gradient(
+    90deg,
+    rgba(49, 21, 52, 1) 16%,
+    rgba(17, 18, 45, 1) 30%
+  );
+  margin-top: 48px;
+}
+.trusted1 {
+  padding-top: -40px;
+}
+.trusted-list {
+  display: flex;
+  align-items: center;
+}
+.trusted-list1 {
+  /* margin-right: 15px;
+
+  margin-top: -25px;
+  margin-left: -20px; */
+  display: flex;
+  justify-content: center;
+  padding-right: 5%;
+  margin-bottom: 10px;
+}
+.imgBG {
+  background-color: #260226;
+}
