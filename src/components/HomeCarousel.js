@@ -31,7 +31,7 @@ const HomeCarousel = () => (
       backgroundColor: "rgb(143 24 141)",
       padding: "10px",
       transform: "rotate(-1.55deg)",
-      width: "99.92%",
+      width: "99.7%",
     }}
   >
     <AliceCarousel

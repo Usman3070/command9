@@ -53,8 +53,9 @@ const Help = () => {
             <Typography
               sx={{
                 color: "#fff",
-                fontWeight: "bold",
+                fontWeight: "bolder",
                 marginBottom: "5%",
+                fontSize: "18px",
               }}
             >
               For Startups
@@ -96,8 +97,9 @@ const Help = () => {
             <Typography
               sx={{
                 color: "#fff",
-                fontWeight: "bold",
+                fontWeight: "bolder",
                 marginBottom: "5%",
+                fontSize: "18px",
               }}
             >
               For Startups

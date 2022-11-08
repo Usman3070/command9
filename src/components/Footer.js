@@ -8,7 +8,11 @@ function Footer() {
       <Grid position='relative' className='footer-2'>
         <img src='/images/logo1.png' />
         <Container
-          sx={{ marginTop: "25px", marginBottom: "30px", width: "60%" }}
+          sx={{
+            marginTop: "25px",
+            marginBottom: "30px",
+            width: { xl: "60%", lg: "60%", md: "70%", sm: "80%", xs: "100%" },
+          }}
         >
           <Typography variant='p'>
             BloxBytes is a synonym for and brings in more and more recognition.
@@ -31,7 +35,7 @@ function Footer() {
         className='footer-bootum'
       >
         <Grid item lg={3} md={6} xs={12}>
-          <div className='footer3'>
+          <div className='footer3' style={{ margin: "auto" }}>
             <h5 className='footer4'>Email Address</h5>
             <input
               className='footer5'

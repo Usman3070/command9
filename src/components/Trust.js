@@ -8,6 +8,7 @@ function NewTrusted(props) {
           <Grid item lg={6} md={6} xs={12}>
             <img
               src={props.image}
+              width='100%'
               // container
               // lg={6}
               // md={6}
@@ -22,13 +23,44 @@ function NewTrusted(props) {
           </Grid>
 
           <Grid item lg={6} md={6} xs={12}>
-            <Typography variant='h4' color='white' sx={{ marginTop: "18%" }}>
+            <Typography
+              color='white'
+              sx={{
+                marginTop: "18%",
+                fontSize: {
+                  xl: "34px",
+                  lg: "34px",
+                  md: "26px",
+                  sm: "22px",
+                  xs: "18px",
+                },
+                textAlign: "center",
+              }}
+            >
               {props.title}
             </Typography>
-            <Typography variant='h2' color='white'>
+            <Typography
+              color='white'
+              sx={{
+                fontSize: {
+                  xl: "42px",
+                  lg: "42px",
+                  md: "34px",
+                  sm: "24px",
+                  xs: "20px",
+                  fontWeight: "bold",
+                },
+                textAlign: "center",
+              }}
+            >
               {props.subtitle}
             </Typography>
-            <Typography color='white' variant='p' paragraph>
+            <Typography
+              color='white'
+              variant='p'
+              paragraph
+              sx={{ textAlign: "center" }}
+            >
               {props.desc1}
             </Typography>
             <ul style={{ listStyleType: "none" }}>

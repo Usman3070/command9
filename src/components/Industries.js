@@ -18,17 +18,50 @@ function Industries() {
           <Container position='relative'>
             <Box>
               <Typography
-                style={{ color: "white" }}
-                variant='h5'
+                sx={{
+                  fontSize: {
+                    xl: "34px",
+                    lg: "34px",
+                    md: "26px",
+                    sm: "22px",
+                    xs: "18px",
+                  },
+                }}
                 color='white'
                 align='center'
               >
                 Blockchain Industries
               </Typography>
-              <Typography variant='h2' color='white' align='center'>
+              <Typography
+                color='white'
+                align='center'
+                sx={{
+                  fontWeight: "bold",
+                  fontSize: {
+                    xl: "42px",
+                    lg: "42px",
+                    md: "38px",
+                    sm: "30px",
+                    xs: "19px",
+                  },
+                }}
+              >
                 Why Industries Use Blockchain
               </Typography>
-              <Typography variant='h6' color='white' align='center' paragraph>
+              <Typography
+                color='white'
+                align='center'
+                paragraph
+                sx={{
+                  fontSize: {
+                    xl: "30px",
+                    lg: "30px",
+                    md: "22px",
+                    sm: "20px",
+                    xs: "16px",
+                  },
+                }}
+              >
                 Explore how industries are using blockchain to increase trust,
                 security, transparency, and the traceability of data across a
                 business network — and deliver cost savings.

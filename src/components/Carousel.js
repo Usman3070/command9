@@ -89,8 +89,15 @@ function App() {
           color: "#fff",
           marginTop: "10px",
           marginBottom: "35px",
+          fontWeight: "bold",
+          fontSize: {
+            xl: "42px",
+            lg: "42px",
+            md: "38px",
+            sm: "30px",
+            xs: "19px",
+          },
         }}
-        variant='h3'
       >
         What Clients Say About Us
       </Typography>

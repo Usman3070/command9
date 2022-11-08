@@ -4,10 +4,36 @@ function NewBlog() {
   return (
     <>
       <Grid className='faq-main'>
-        <Typography variant='h5' color='white' align='center'>
+        <Typography
+          color='white'
+          align='center'
+          sx={{
+            fontWeight: "bold",
+            fontSize: {
+              xl: "32px",
+              lg: "32px",
+              md: "26px",
+              sm: "20px",
+              xs: "16px",
+            },
+          }}
+        >
           Blog
         </Typography>
-        <Typography variant='h3' color='white' align='center'>
+        <Typography
+          color='white'
+          align='center'
+          sx={{
+            fontWeight: "bold",
+            fontSize: {
+              xl: "42px",
+              lg: "42px",
+              md: "38px",
+              sm: "30px",
+              xs: "19px",
+            },
+          }}
+        >
           Latest News Feed
         </Typography>
 

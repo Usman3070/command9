@@ -17,10 +17,34 @@ function Meeting() {
       <Grid container lg={12} md={12} sm={12} spacing={6}>
         <Grid item lg={6} md={12} xs={12}>
           <Grid className='calander-1'>
-            <Typography variant='h4' color='white'>
+            <Typography
+              color='white'
+              sx={{
+                fontWeight: "bold",
+                fontSize: {
+                  xl: "42px",
+                  lg: "42px",
+                  md: "38px",
+                  sm: "30px",
+                  xs: "19px",
+                },
+              }}
+            >
               Let's talk about project
             </Typography>
-            <Typography variant='h4' color='white'>
+            <Typography
+              color='white'
+              sx={{
+                fontWeight: "bold",
+                fontSize: {
+                  xl: "42px",
+                  lg: "42px",
+                  md: "38px",
+                  sm: "30px",
+                  xs: "19px",
+                },
+              }}
+            >
               Schedule Meeting
             </Typography>
             <Calendar className='calan3' onChange={onChange} value={date} />

@@ -1,4 +1,11 @@
-import { Box, Button, CardMedia, Grid, Typography } from "@mui/material";
+import {
+  Box,
+  Button,
+  CardMedia,
+  Container,
+  Grid,
+  Typography,
+} from "@mui/material";
 import React from "react";
 import "./Nav.css";
 const HeroSection = (props) => {
@@ -11,14 +18,17 @@ const HeroSection = (props) => {
       sm={12}
       xs={12}
       spacing={4}
-      sx={{ margin: "auto" }}
+      // sx={{ margin: "auto" }}
     >
       <Grid item xl={6} lg={6} md={6} sm={12} xs={12}>
-        <Box sx={{ marginTop: "50px" }}>
+        <Box sx={{ marginTop: "50px", marginLeft: "16%" }}>
           <Typography variant='h5' color='white'>
             {props.title}
           </Typography>
-          <Typography variant='h2' color='white'>
+          <Typography
+            color='white'
+            sx={{ fontSize: "42px", fontWeight: "bold" }}
+          >
             {props.subtitle}
           </Typography>
           <Typography variant='p' color='white' paragraph>
@@ -29,7 +39,8 @@ const HeroSection = (props) => {
           </Button>
         </Box>
       </Grid>
-      <Grid item xl={6} lg={6} md={6} sm={12} xs={12} sx={{}}>
+
+      <Grid item xl={6} lg={6} md={6} sm={12} xs={12}>
         <CardMedia
           image={props.image}
           sx={{

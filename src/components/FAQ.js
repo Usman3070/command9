@@ -10,14 +10,36 @@ function NewFAQ() {
   return (
     <>
       <Grid className='faq-main' sx={{ paddingTop: "5%" }}>
-        <Typography variant='h5' color='white' align='center'>
+        <Typography
+          color='white'
+          align='center'
+          sx={{
+            fontSize: {
+              xl: "32px",
+              lg: "32px",
+              md: "26px",
+              sm: "22px",
+              xs: "16px",
+            },
+          }}
+        >
           FAQ’s
         </Typography>
         <Typography
-          variant='h3'
           color='white'
           align='center'
-          sx={{ paddingTop: "1%", marginBottom: "2%" }}
+          sx={{
+            paddingTop: "1%",
+            marginBottom: "2%",
+            fontWeight: "bold",
+            fontSize: {
+              xl: "42px",
+              lg: "42px",
+              md: "38px",
+              sm: "30px",
+              xs: "19px",
+            },
+          }}
         >
           Frequently Asked Questions
         </Typography>

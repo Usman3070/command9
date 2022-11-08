@@ -7,10 +7,36 @@ function NewGetStarted() {
       <Grid className='get-main'>
         <Grid container>
           <Container position='relative'>
-            <Typography color='white' variant='h6' align='center'>
+            <Typography
+              color='white'
+              variant='h6'
+              align='center'
+              sx={{
+                fontSize: {
+                  xl: "34px",
+                  lg: "34px",
+                  md: "24px",
+                  sm: "20px",
+                  xs: "18px",
+                },
+              }}
+            >
               Blockchain Industries
             </Typography>
-            <Typography color='white' variant='h3' align='center'>
+            <Typography
+              color='white'
+              align='center'
+              sx={{
+                fontWeight: "bold",
+                fontSize: {
+                  xl: "42px",
+                  lg: "42px",
+                  md: "38px",
+                  sm: "30px",
+                  xs: "19px",
+                },
+              }}
+            >
               Why Industries Use Blockchain
             </Typography>
             <Typography

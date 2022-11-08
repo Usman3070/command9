@@ -1,10 +1,6 @@
 .home-main-new {
   background: url("/public/images/HeaderCuves.png"),
-    radial-gradient(
-      56.1% 140.17% at 28.45% 52%,
-      rgba(183, 15, 186, 0.904) 0%,
-      #010924 100%
-    );
+    linear-gradient(90deg, rgba(88, 9, 96, 1) 0%, rgba(68, 6, 61, 1) 100%);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,4 +24,20 @@
   color: #fff !important;
   margin-right: 30px !important;
   font-size: 18px !important;
+}
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+.link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.links {
+  color: #000;
+  text-decoration: none;
+}
+.links:hover {
+  color: #000;
+  text-decoration: none;
 }

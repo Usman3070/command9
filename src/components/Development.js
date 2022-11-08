@@ -16,49 +16,92 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
     backgroundColor: theme.palette.mode === "light" ? "#7B142D" : "#7B142D",
   },
 }));
-const Development = () => {
+const Development = (props) => {
   return (
     <div className='bgMain'>
       <Typography sx={{ color: "#fff", textAlign: "center" }}>
-        MONETISE BY DEVELOPING
+        {props.title}
       </Typography>
-      <Typography sx={{ color: "#fff", textAlign: "center" }} variant='h5'>
-        Cmd9 Lab NFT Marketplace Development Services
+      <Typography
+        sx={{ color: "#fff", textAlign: "center", marginBottom: "3%" }}
+        variant='h5'
+      >
+        {props.subtitle}
       </Typography>
       <Container>
         <Grid container xl={12} lg={12} md={12} sm={12} xs={12}>
-          <Grid item xl={4} lg={4} md={4} sm={6} xs={12}>
+          <Grid xl={4} lg={4} md={4} item style={{ padding: "20px" }}>
             <Typography sx={{}}>
               <Typography
                 sx={{
                   color: "#fff",
                   marginBottom: "3px",
+                  letterSpacing: "2px",
+                  fontWeight: "bold",
                 }}
               >
-                NFT Marketplace Development
+                {props.Sec1Title}
               </Typography>
               <BorderLinearProgress variant='determinate' value={30} />
               <Typography sx={{ color: "#fff", marginTop: "3px" }}>
-                Your NFT marketplace will be user-friendly, intuitive, and
-                dependable thanks to our mix of NFT and eCommerce expertise.
-                Allow us to build your profitable NFT marketplace so you can
-                start reaping the benefits right away.
+                {props.Sec1Desc}
+              </Typography>
+            </Typography>
+            <Typography>
+              <Typography
+                sx={{
+                  color: "#fff",
+                  marginBottom: "3px",
+                  letterSpacing: "2px",
+                  fontWeight: "bold",
+                  marginTop: "50%",
+                }}
+              >
+                {props.Sec2Title}
+              </Typography>
+              <BorderLinearProgress variant='determinate' value={30} />
+
+              <Typography sx={{ color: "#fff", marginTop: "3px" }}>
+                {props.Sec2Desc}
               </Typography>
             </Typography>
           </Grid>
-          <Grid item xl={4} lg={4}>
-            <img src='/images/development.png' />
+
+          <Grid xl={4} lg={4} md={4} item sx={{ marginTop: "10%" }}>
+            <img width='100%' src='/images/development.png' />
           </Grid>
-          <Grid item xl={4} lg={4} md={4} sm={6} xs={12}>
-            <Typography>
-              <Typography sx={{ color: "#fff" }}>
-                NFT Marketplace Development
+          <Grid xl={4} lg={4} md={4} item style={{ padding: "20px" }}>
+            <Typography sx={{}}>
+              <Typography
+                sx={{
+                  color: "#fff",
+                  marginBottom: "3px",
+                  letterSpacing: "2px",
+                  fontWeight: "bold",
+                }}
+              >
+                {props.Sec3Title}
               </Typography>
-              <Typography sx={{ color: "#fff" }}>
-                Your NFT marketplace will be user-friendly, intuitive, and
-                dependable thanks to our mix of NFT and eCommerce expertise.
-                Allow us to build your profitable NFT marketplace so you can
-                start reaping the benefits right away.
+              <BorderLinearProgress variant='determinate' value={30} />
+              <Typography sx={{ color: "#fff", marginTop: "3px" }}>
+                {props.Sec3Desc}
+              </Typography>
+            </Typography>
+            <Typography>
+              <Typography
+                sx={{
+                  color: "#fff",
+                  marginBottom: "3px",
+                  letterSpacing: "2px",
+                  fontWeight: "bold",
+                  marginTop: "50%",
+                }}
+              >
+                {props.Sec4Title}
+              </Typography>
+              <BorderLinearProgress variant='determinate' value={30} />
+              <Typography sx={{ color: "#fff", marginTop: "3px" }}>
+                {props.Sec4Desc}
               </Typography>
             </Typography>
           </Grid>

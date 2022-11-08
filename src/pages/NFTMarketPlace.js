@@ -5,6 +5,10 @@ import HeroSection from "../components/HeroSection";
 import "../components/Nav.css";
 import NavBar from "../components/Navbar";
 import Trust from "../components/Trust";
+import WorkWith from "../components/WorkWith";
+import FAQ from "../components/FAQ";
+import Meeting from "../components/Meeting";
+import Footer from "../components/Footer";
 const NFTMarketPlace = () => {
   return (
     <div>
@@ -26,7 +30,23 @@ const NFTMarketPlace = () => {
 '
       />
       <Business />
-      <Development />
+      <Development
+        title='MONETISE BY DEVELOPING'
+        subtitle='Cmd9 Lab NFT Marketplace
+Development Services'
+        Sec1Title='NFT Marketplace Development'
+        Sec1Desc='Your NFT marketplace will be user-friendly, intuitive, and dependable thanks to our mix of NFT and eCommerce expertise. Allow us to build your profitable NFT marketplace so you can start reaping the benefits right away.'
+        Sec2Title='Intellectual Property Tokenization'
+        Sec2Desc='We use our NFT and blockchain experience to ensure that intellectual property management systems run smoothly and asset tokenization logic and execution are perfect. You can use these systems in your own business or sell them to others.'
+        Sec3Title='NFT Smart Contract Development And Audit'
+        Sec3Desc="We provide NFT smart contract development and auditing services to assure the smart contracts' error-free operation and seamless automation in NFT transactions. "
+        Sec4Title='NFT Marketplace Support And Maintenance'
+        Sec4Desc='We constantly monitor, manage, and provide assistance for third-party upgrades, and new OS versions, and ensure that nodes are always available.'
+      />
+      <WorkWith />
+      <FAQ />
+      <Meeting />
+      <Footer />
     </div>
   );
 };

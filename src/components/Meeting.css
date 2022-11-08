@@ -1,5 +1,9 @@
 .calander-main {
-  background: #111;
+  background: linear-gradient(
+    90deg,
+    rgba(31, 8, 33, 1) 0%,
+    rgba(23, 3, 21, 1) 100%
+  );
   /* padding-top: 30px; */
   padding-bottom: 50px;
 }

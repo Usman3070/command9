@@ -5,6 +5,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import "./Nav.css";
+import { Outlet, Link } from "react-router-dom";
 
 function NavBar(props) {
   return (
@@ -21,13 +22,23 @@ function NavBar(props) {
               style={{ maxHeight: "100px" }}
               navbarScroll
             >
-              <Nav.Link href='#action1'>Home</Nav.Link>
+              <Nav.Link>
+                <Link to='/' className='link'>
+                  Home
+                </Link>
+              </Nav.Link>
               <Nav.Link href='#action2'>About</Nav.Link>
               <NavDropdown title='Our Services' id='navbarScrollingDropdown'>
-                <NavDropdown.Item href='#action3'>Services</NavDropdown.Item>
-                <NavDropdown.Item href='#action4'>Services</NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href='#action5'>Services</NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link to='/nftmarketplace' className='links'>
+                    NFT Marketplace
+                  </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link to='/smartcontract' className='links'>
+                    Smart Contract
+                  </Link>
+                </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href='#action2'>Technology Stack</Nav.Link>
               <Nav.Link href='#action2'>Our Process</Nav.Link>
