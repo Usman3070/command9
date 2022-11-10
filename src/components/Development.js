@@ -1,6 +1,7 @@
 import { Container, Grid, Typography } from "@mui/material";
 import React from "react";
 import "./Development.css";
+import "./Trust.css";
 import { styled } from "@mui/material/styles";
 import LinearProgress, {
   linearProgressClasses,
@@ -17,6 +18,7 @@ const BorderLinearProgress = styled(LinearProgress)(({ theme }) => ({
   },
 }));
 const Development = (props) => {
+  console.log(props);
   return (
     <div className='bgMain'>
       <Typography sx={{ color: "#fff", textAlign: "center" }}>
@@ -43,9 +45,46 @@ const Development = (props) => {
                 {props.Sec1Title}
               </Typography>
               <BorderLinearProgress variant='determinate' value={30} />
-              <Typography sx={{ color: "#fff", marginTop: "3px" }}>
-                {props.Sec1Desc}
-              </Typography>
+              <ul style={{ listStyleType: "none", marginTop: "2%" }}>
+                {props.S1list1 && (
+                  <li>
+                    <Grid className='trusted-list'>
+                      <img src='/images/arrow.png' className='trusted-list1' />
+
+                      <Typography color='white' variant='p' paragraph>
+                        {props.S1list1}
+                      </Typography>
+                    </Grid>
+                  </li>
+                )}
+                {props.S1list2 && (
+                  <li>
+                    <Grid className='trusted-list'>
+                      <img src='/images/arrow.png' className='trusted-list1' />
+
+                      <Typography color='white' variant='p' paragraph>
+                        {props.S1list2}
+                      </Typography>
+                    </Grid>
+                  </li>
+                )}
+                {props.S1list3 && (
+                  <li>
+                    <Grid className='trusted-list'>
+                      <img src='/images/arrow.png' className='trusted-list1' />
+
+                      <Typography color='white' variant='p' paragraph>
+                        {props.S1list3}
+                      </Typography>
+                    </Grid>
+                  </li>
+                )}
+              </ul>
+              {props.Sec1Desc && (
+                <Typography sx={{ color: "#fff", marginTop: "3px" }}>
+                  {props.Sec1Desc}
+                </Typography>
+              )}
             </Typography>
             <Typography>
               <Typography
@@ -60,10 +99,57 @@ const Development = (props) => {
                 {props.Sec2Title}
               </Typography>
               <BorderLinearProgress variant='determinate' value={30} />
+              <ul style={{ listStyleType: "none", marginTop: "2%" }}>
+                {props.S2list1 && (
+                  <li>
+                    <Grid className='trusted-list'>
+                      <img src='/images/arrow.png' className='trusted-list1' />
 
-              <Typography sx={{ color: "#fff", marginTop: "3px" }}>
-                {props.Sec2Desc}
-              </Typography>
+                      <Typography color='white' variant='p' paragraph>
+                        {props.S2list1}
+                      </Typography>
+                    </Grid>
+                  </li>
+                )}
+                {props.S2list2 && (
+                  <li>
+                    <Grid className='trusted-list'>
+                      <img src='/images/arrow.png' className='trusted-list1' />
+
+                      <Typography color='white' variant='p' paragraph>
+                        {props.S2list2}
+                      </Typography>
+                    </Grid>
+                  </li>
+                )}
+                {props.S2list3 && (
+                  <li>
+                    <Grid className='trusted-list'>
+                      <img src='/images/arrow.png' className='trusted-list1' />
+
+                      <Typography color='white' variant='p' paragraph>
+                        {props.S2list3}
+                      </Typography>
+                    </Grid>
+                  </li>
+                )}
+                {props.S2list4 && (
+                  <li>
+                    <Grid className='trusted-list'>
+                      <img src='/images/arrow.png' className='trusted-list1' />
+
+                      <Typography color='white' variant='p' paragraph>
+                        {props.S2list4}
+                      </Typography>
+                    </Grid>
+                  </li>
+                )}
+              </ul>
+              {props.Sec2Desc && (
+                <Typography sx={{ color: "#fff", marginTop: "3px" }}>
+                  {props.Sec2Desc}
+                </Typography>
+              )}
             </Typography>
           </Grid>
 
@@ -83,9 +169,90 @@ const Development = (props) => {
                 {props.Sec3Title}
               </Typography>
               <BorderLinearProgress variant='determinate' value={30} />
-              <Typography sx={{ color: "#fff", marginTop: "3px" }}>
-                {props.Sec3Desc}
-              </Typography>
+              <ul style={{ listStyleType: "none", marginTop: "2%" }}>
+                {props.S3list1 && (
+                  <li>
+                    <Grid className='trusted-list'>
+                      <img src='/images/arrow.png' className='trusted-list1' />
+
+                      <Typography color='white' variant='p' paragraph>
+                        {props.S3list1}
+                      </Typography>
+                    </Grid>
+                  </li>
+                )}
+                {props.S3list2 && (
+                  <li>
+                    <Grid className='trusted-list'>
+                      <img src='/images/arrow.png' className='trusted-list1' />
+
+                      <Typography color='white' variant='p' paragraph>
+                        {props.S3list2}
+                      </Typography>
+                    </Grid>
+                  </li>
+                )}
+                {props.S3list3 && (
+                  <li>
+                    <Grid className='trusted-list'>
+                      <img src='/images/arrow.png' className='trusted-list1' />
+
+                      <Typography color='white' variant='p' paragraph>
+                        {props.S3list3}
+                      </Typography>
+                    </Grid>
+                  </li>
+                )}
+                {props.S3list4 && (
+                  <li>
+                    <Grid className='trusted-list'>
+                      <img src='/images/arrow.png' className='trusted-list1' />
+
+                      <Typography color='white' variant='p' paragraph>
+                        {props.S3list4}
+                      </Typography>
+                    </Grid>
+                  </li>
+                )}
+                {props.S3list5 && (
+                  <li>
+                    <Grid className='trusted-list'>
+                      <img src='/images/arrow.png' className='trusted-list1' />
+
+                      <Typography color='white' variant='p' paragraph>
+                        {props.S3list5}
+                      </Typography>
+                    </Grid>
+                  </li>
+                )}
+                {props.S3list6 && (
+                  <li>
+                    <Grid className='trusted-list'>
+                      <img src='/images/arrow.png' className='trusted-list1' />
+
+                      <Typography color='white' variant='p' paragraph>
+                        {props.S3list6}
+                      </Typography>
+                    </Grid>
+                  </li>
+                )}
+                {props.S3list7 && (
+                  <li>
+                    <Grid className='trusted-list'>
+                      <img src='/images/arrow.png' className='trusted-list1' />
+
+                      <Typography color='white' variant='p' paragraph>
+                        {props.S3list7}
+                      </Typography>
+                    </Grid>
+                  </li>
+                )}
+              </ul>
+              {props.Sec3Desc && (
+                <Typography sx={{ color: "#fff", marginTop: "3px" }}>
+                  {props.Sec3Desc}
+                </Typography>
+              )}
             </Typography>
             <Typography>
               <Typography
@@ -100,9 +267,57 @@ const Development = (props) => {
                 {props.Sec4Title}
               </Typography>
               <BorderLinearProgress variant='determinate' value={30} />
-              <Typography sx={{ color: "#fff", marginTop: "3px" }}>
-                {props.Sec4Desc}
-              </Typography>
+              <ul style={{ listStyleType: "none", marginTop: "2%" }}>
+                {props.S4list1 && (
+                  <li>
+                    <Grid className='trusted-list'>
+                      <img src='/images/arrow.png' className='trusted-list1' />
+
+                      <Typography color='white' variant='p' paragraph>
+                        {props.S4list1}
+                      </Typography>
+                    </Grid>
+                  </li>
+                )}
+                {props.S4list2 && (
+                  <li>
+                    <Grid className='trusted-list'>
+                      <img src='/images/arrow.png' className='trusted-list1' />
+
+                      <Typography color='white' variant='p' paragraph>
+                        {props.S4list2}
+                      </Typography>
+                    </Grid>
+                  </li>
+                )}
+                {props.S4list3 && (
+                  <li>
+                    <Grid className='trusted-list'>
+                      <img src='/images/arrow.png' className='trusted-list1' />
+
+                      <Typography color='white' variant='p' paragraph>
+                        {props.S4list3}
+                      </Typography>
+                    </Grid>
+                  </li>
+                )}
+                {props.S4list4 && (
+                  <li>
+                    <Grid className='trusted-list'>
+                      <img src='/images/arrow.png' className='trusted-list1' />
+
+                      <Typography color='white' variant='p' paragraph>
+                        {props.S4list4}
+                      </Typography>
+                    </Grid>
+                  </li>
+                )}
+              </ul>
+              {props.Sec4Desc && (
+                <Typography sx={{ color: "#fff", marginTop: "3px" }}>
+                  {props.Sec4Desc}
+                </Typography>
+              )}
             </Typography>
           </Grid>
         </Grid>

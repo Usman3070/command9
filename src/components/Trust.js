@@ -55,14 +55,16 @@ function NewTrusted(props) {
             >
               {props.subtitle}
             </Typography>
-            <Typography
-              color='white'
-              variant='p'
-              paragraph
-              sx={{ textAlign: "center" }}
-            >
-              {props.desc1}
-            </Typography>
+            {props.desc1 && (
+              <Typography
+                color='white'
+                variant='p'
+                paragraph
+                sx={{ textAlign: "center" }}
+              >
+                {props.desc1}
+              </Typography>
+            )}
             <ul style={{ listStyleType: "none" }}>
               {props.question1 && (
                 <li>
@@ -102,9 +104,16 @@ function NewTrusted(props) {
                 </li>
               )}
             </ul>
-            <Typography color='white' variant='p' paragraph>
-              {props.desc2}
-            </Typography>
+            {props.desc2 && (
+              <Typography color='white' variant='p' paragraph>
+                {props.desc2}
+              </Typography>
+            )}
+            {props.desc3 && (
+              <Typography color='white' variant='p' paragraph>
+                {props.desc3}
+              </Typography>
+            )}
             <Grid container lg={12} md={12} sm={12} spacing={6}>
               <Grid item lg={6} md={6} xs={12}>
                 <ul style={{ listStyleType: "none" }}>
@@ -200,6 +209,20 @@ function NewTrusted(props) {
 
                         <Typography color='white' variant='p' paragraph>
                           {props.list6}
+                        </Typography>
+                      </Grid>
+                    </li>
+                  )}
+                  {props.list7 && (
+                    <li>
+                      <Grid className='trusted-list'>
+                        <img
+                          src='/images/arrow.png'
+                          className='trusted-list1'
+                        />
+
+                        <Typography color='white' variant='p' paragraph>
+                          {props.list7}
                         </Typography>
                       </Grid>
                     </li>

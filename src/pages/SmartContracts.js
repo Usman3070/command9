@@ -9,6 +9,8 @@ import WorkWith from "../components/WorkWith";
 import Meeting from "../components/Meeting";
 import Footer from "../components/Footer";
 import FAQ from "../components/FAQ";
+import WorkWithMob from "../components/WorkWithMob";
+import { Typography } from "@mui/material";
 const SmartContracts = () => {
   return (
     <div>
@@ -45,7 +47,58 @@ const SmartContracts = () => {
         Applications'
           Sec4Desc='Develop dApps with smart contracts that encode business logic and allow direct dialogue between two trading parties or trading parties. Our smart contracts seamlessly meet business goals and efficiently solve complex operational complexity.'
         />
-        <WorkWith />
+        <Typography
+          sx={{
+            display: {
+              xl: "block",
+              lg: "block",
+              md: "block",
+              sm: "none",
+              xs: "none",
+            },
+          }}
+        >
+          <WorkWith
+            title1='Looking For Smart Contracts Services?'
+            desc1='With our next-generation Smart Contracts Services, we can turn your'
+            desc2='next-generation company concepts into real-time applications.'
+            title2='Cmd9 Lab'
+            subtitle2='Why Work With
+CMD9 Lab?'
+            help1='We have smart contract development expertise'
+            help2='We have dedicated in-house smart contract developers'
+            help3='We are a trusted smart contract development partner'
+            help4='We provide 24/7 support and maintenance of smart contract development'
+            help5='We have a very solid smart contract development portfolio'
+            help6='We have innovative smart contract developers and researchers'
+          />
+        </Typography>
+        <Typography
+          sx={{
+            display: {
+              xl: "none",
+              lg: "none",
+              md: "none",
+              sm: "block",
+              xs: "block",
+            },
+          }}
+        >
+          <WorkWithMob
+            title1='Looking For Smart Contracts Services?'
+            desc1='With our next-generation Smart Contracts Services, we can turn your'
+            desc2='next-generation company concepts into real-time applications.'
+            title2='Cmd9 Lab'
+            subtitle2='Why Work With
+CMD9 Lab?'
+            help1='We have smart contract development expertise'
+            help2='We have dedicated in-house smart contract developers'
+            help3='We are a trusted smart contract development partner'
+            help4='We provide 24/7 support and maintenance of smart contract development'
+            help5='We have a very solid smart contract development portfolio'
+            help6='We have innovative smart contract developers and researchers'
+          />
+        </Typography>
         <FAQ />
         <Meeting />
         <Footer />

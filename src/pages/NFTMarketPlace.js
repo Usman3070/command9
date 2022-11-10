@@ -9,6 +9,8 @@ import WorkWith from "../components/WorkWith";
 import FAQ from "../components/FAQ";
 import Meeting from "../components/Meeting";
 import Footer from "../components/Footer";
+import { Typography } from "@mui/material";
+import WorkWithMob from "../components/WorkWithMob";
 const NFTMarketPlace = () => {
   return (
     <div>
@@ -43,7 +45,56 @@ Development Services'
         Sec4Title='NFT Marketplace Support And Maintenance'
         Sec4Desc='We constantly monitor, manage, and provide assistance for third-party upgrades, and new OS versions, and ensure that nodes are always available.'
       />
-      <WorkWith />
+      <Typography
+        sx={{
+          display: {
+            xl: "block",
+            lg: "block",
+            md: "block",
+            sm: "none",
+            xs: "none",
+          },
+        }}
+      >
+        <WorkWith
+          title1='Looking For NFT Development Services?'
+          desc1='With our next-generation NFT Development Services, we can turn'
+          desc2='With our next-generation NFT Development Services, we can turn
+          your '
+          title2='Cmd9 Lab'
+          subtitle2='Why Work With
+CMD9 Lab?'
+          help1='We have a staff of highly qualified and experienced blockchain professionals who are well-versed in a variety of blockchain protocols and NFT standards.'
+          help2='Our NFT marketplace development firm is experienced with a variety of blockchain systems, including Ethereum, EOS, Stellar, Tezos, and others.'
+          help3='By signing an NDA, we guarantee that we will never share any information about your project.'
+          help4='To ensure on-time delivery of continually tested NFTs, our team uses an agile development strategy.'
+        />
+      </Typography>
+      <Typography
+        sx={{
+          display: {
+            xl: "none",
+            lg: "none",
+            md: "none",
+            sm: "block",
+            xs: "block",
+          },
+        }}
+      >
+        <WorkWithMob
+          title1='Looking For NFT Development Services?'
+          desc1='With our next-generation NFT Development Services, we can turn'
+          desc2='With our next-generation NFT Development Services, we can turn
+          your '
+          title2='Cmd9 Lab'
+          subtitle2='Why Work With
+CMD9 Lab?'
+          help1='We have a staff of highly qualified and experienced blockchain professionals who are well-versed in a variety of blockchain protocols and NFT standards.'
+          help2='Our NFT marketplace development firm is experienced with a variety of blockchain systems, including Ethereum, EOS, Stellar, Tezos, and others.'
+          help3='By signing an NDA, we guarantee that we will never share any information about your project.'
+          help4='To ensure on-time delivery of continually tested NFTs, our team uses an agile development strategy.'
+        />
+      </Typography>
       <FAQ />
       <Meeting />
       <Footer />

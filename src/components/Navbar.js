@@ -39,6 +39,16 @@ function NavBar(props) {
                     Smart Contract
                   </Link>
                 </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link to='/cryptowallet' className='links'>
+                    Crypto Wallet
+                  </Link>
+                </NavDropdown.Item>
+                <NavDropdown.Item>
+                  <Link to='/marketplace' className='links'>
+                    Market Place
+                  </Link>
+                </NavDropdown.Item>
               </NavDropdown>
               <Nav.Link href='#action2'>Technology Stack</Nav.Link>
               <Nav.Link href='#action2'>Our Process</Nav.Link>

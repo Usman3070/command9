@@ -54,11 +54,11 @@ function Industries() {
                 paragraph
                 sx={{
                   fontSize: {
-                    xl: "30px",
-                    lg: "30px",
-                    md: "22px",
-                    sm: "20px",
-                    xs: "16px",
+                    xl: "18px",
+                    lg: "18px",
+                    md: "18px",
+                    sm: "14px",
+                    xs: "14px",
                   },
                 }}
               >
